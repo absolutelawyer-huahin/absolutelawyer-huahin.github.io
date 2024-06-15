@@ -3,7 +3,7 @@ title: Home
 content_blocks:
   - _bookshop_name: sections/video-hero
     heading: Absolute Lawyer Hua Hin
-    subheading: The most pathetic and single lawyer in Hua Hin
+#    subheading: The most pathetic and single lawyer in Hua Hin
     background_video: /video/ocean
   - _bookshop_name: sections/case-study
     background: grey

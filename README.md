@@ -10,4 +10,4 @@
   ```shell
   npm run start
   ```
-  Serverd on http://localhost:1313/
+  Served on http://localhost:1313/

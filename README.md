@@ -4,14 +4,10 @@
 
 - Build the application:
   ```shell
-  hugo
+  npm i
   ```
 - Deploy on localhost:
   ```shell
-  hugo serve
+  npm run start
   ```
-  Deploy on localhost without caching:
-  ```shell
-  hugo serve --noHTTPCache --ignoreCache --disableFastRender
-  ```
-  Served on http://localhost:1313/
+  Serverd on http://localhost:1313/

@@ -47,9 +47,9 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        run: npm i
       - name: Pre-build
-        run: npm i && esbuild assets/js/index.js --bundle --outfile=assets/js/build.js
+        run: esbuild assets/js/index.js --bundle --outfile=assets/js/build.js
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules

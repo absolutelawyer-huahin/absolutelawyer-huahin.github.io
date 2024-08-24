@@ -49,11 +49,11 @@
 			width: 0;
 			height: 1px;
 			transition: 0.5s;
-			background: $primary-color;
+			background: $primary-light-orange;
 		}
 		&:hover{
 			text-decoration: none;
-			color: $primary-color;
+			color: $primary-light-orange;
 			&:before{
 				opacity: 1;
 				width: 100%;
@@ -69,7 +69,7 @@
 		color: rgba(255, 255, 255, 0.8);
 		transition: 0.5s;
 		&:hover{
-			color: $primary-color;
+			color: $primary-light-orange;
 		}
 	}
 }
@@ -90,7 +90,7 @@
 		transition: 0.5s;
 		display: inline-block;
 		&:hover{
-			color: $primary-color;
+			color: $primary-light-orange;
 		}
 	}
 }

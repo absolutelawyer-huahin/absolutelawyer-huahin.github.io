@@ -40,8 +40,8 @@ button {
 /* Themefisher Button effect */
 .btn-main{
 	border-radius: 0;
-	background: $primary-color;
-	border-color: $primary-color;
+	background: $primary-light-orange;
+	border-color: $primary-light-orange;
 	font-family: $poppins;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -102,7 +102,7 @@ button {
 	text-transform: none;
 	&:hover{
 		background: transparent;
-		color: $primary-color;
+		color: $primary-light-orange;
 	}
 }
 
@@ -127,7 +127,7 @@ button {
 	right: 15px;
 	&:hover{
 		background: transparent;
-		color: $primary-color;
+		color: $primary-light-orange;
 		border-color: transparent;
 	}
 }
@@ -163,7 +163,7 @@ button {
 		bottom: 0;
 		height: 3px;
 		width: 70px;
-		background: $primary-color;
+		background: $primary-light-orange;
 		transform: translateX(-50%);
 	}
 }
@@ -204,7 +204,7 @@ button {
 
     &.slick-active {
       button{
-				background: $primary-color;
+				background: $primary-light-orange;
 			}
     }
   }

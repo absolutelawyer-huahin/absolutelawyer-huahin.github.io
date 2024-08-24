@@ -7,6 +7,9 @@
                 <!-- inner sub-title -->
                 <div class="content">
                     <h4 class="inner-title"> {{ .heading }}</h4>
+                    {{ if .subheading }}
+                        <h5 class="inner-title"> {{ .subheading }}</h5>
+                    {{ end }}
                     <p class="case-description">{{ .content_html | safeHTML }}</p>
                     <!-- View More Details -->
                     {{ partial "bookshop" (slice "generic/link" .link )}}

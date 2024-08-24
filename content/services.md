@@ -12,7 +12,7 @@ content_blocks:
     image: /images/header/services-folding-img.jpg
   - _bookshop_name: sections/services
     heading:
-      heading: Our Services
+      heading: All our services are supported by legal professionals.
     service:
       - _bookshop_name: simple/icon-and-content
         icon: tf-mobile

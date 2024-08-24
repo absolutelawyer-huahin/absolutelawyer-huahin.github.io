@@ -79,6 +79,18 @@
   }
 }
 
+/*
+.fade-in video {
+  opacity: 1;
+}
+
+.fade-in::before {
+  opacity: 0;
+}
+ */
+
+
+
 /* slick style */
 .slick-slide {
   outline: 0;
@@ -96,7 +108,7 @@
   z-index: 9;
   height: 70px;
   width: 70px;
-  background: rgba($color: $primary-color, $alpha: .5);
+  background: rgba($color: $primary-light-orange, $alpha: .5);
   color: $white;
   border: 0;
   line-height: 70px;
@@ -130,7 +142,7 @@
   }
 
   &:hover {
-    background: $primary-color;
+    background: $primary-light-orange;
   }
 }
 

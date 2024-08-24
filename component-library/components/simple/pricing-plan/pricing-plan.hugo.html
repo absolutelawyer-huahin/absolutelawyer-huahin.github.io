@@ -1,11 +1,11 @@
 <div class="col-md-4">
-    <div class="table text-center">
+    <div class="table">
         <!-- pricing table
       ===================== -->
-        <div class="table-price border-effect">
+        <div class="table-price border-effect text-center">
             <h4 class="pricing-title">{{ .heading }}</h4>
-            <h2 class="price">{{ .currency }} {{ .price }}</h2>
-            <p class="table-month">/ {{ .plan_length }}</p>
+            <p class="price-description">{{ .price_description }}</p>
+            <h2 class="price">{{ .price }} {{ .currency }}</h2>
         </div>
         <div class="pricing-list border-effect">
             <ul class="features-list">
@@ -13,7 +13,9 @@
                     {{ partial "bookshop" (slice "simple/plan-feature" .)}}
                 {{ end }}
             </ul>
-            {{ partial "bookshop" (slice "generic/button" .button )}}
+            <div class="text-center">
+                {{ partial "bookshop" (slice "generic/button" .button )}}
+            </div>
         </div>
     </div>
 </div>

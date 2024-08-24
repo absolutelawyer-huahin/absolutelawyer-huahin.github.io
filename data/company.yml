@@ -5,21 +5,21 @@ SEO_options:
   twitter_site: 
   image: 
 favicon: /images/favicon.ico
-company_name: REDCODDER SOLUTION
+company_name: Absolute Lawyer Hua Hin
 contact:
-  address: "DeviserWeb 24/A,Jalalabad amborkhana amagnina, Sylhet."
-  phone: "+61 (0) 3 8366 6274"
-  mobile: 01771-299299
-  web_address: deviserweb.com
-  email: "info@info.com"
+  address: "70, 154 Hua Hin 112, Nong Kae, Hua Hin District, Prachuap Khiri Khan 77110"
+  phone: "+66 032 522 273"
+  mobile: +66 09 9824 4155
+  web_address: absolutelawyer-huahin.com
+  email: "amita@absolutelawyer-huahin.com"
 social_media:
-  facebook: "#"
-  twitter: "#"
-  linkedin: "#"
-  google: "#"
-  instagram: "#"
-copyright_html: <p>&copy; 2013-2017 All rights reserved. <br>
-                                Design and Developed By <a href="https://themefisher.com">Themefisher.com</a></p>
+  facebook: "https://www.facebook.com/absolutelawyerhuahin/"
+  #twitter: "#"
+  linkedin: "https://th.linkedin.com/in/amita-kullaphan-6186a2b9"
+  google: "https://search.app.goo.gl/duw99x1"
+  #instagram: "#"
+copyright_html: <p>&copy; 2024 All rights reserved. <br>
+                                Absolute Lawyer Hua Hin</p>
 google_maps_api_key: ""
 
 _inputs:

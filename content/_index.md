@@ -3,235 +3,90 @@ title: Home
 content_blocks:
   - _bookshop_name: sections/video-hero
     heading: Absolute Lawyer Hua Hin
-#    subheading: The most pathetic and single lawyer in Hua Hin
-    background_video: /video/ocean
+#    subheading:
+    background_video: /video/video
   - _bookshop_name: sections/case-study
     background: grey
     heading:
-      heading: Case Study
+      heading: About Us
     left_right_blocks:
       - _bookshop_name: simple/left-right-block
-        image_alignment: right
-        background: grey
-        heading: E Banks That Accept Us Casino Players
-        content_html: >-
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euiyd tincidunt ut laoreet dolore magna aliquam nibh
-          utpat.Ullamcorper suscipit lobo nibh euiyd tinci- dunt ut
-          laoreet.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Rem impedit molestias cumque dolorum, sunt, provident blanditiis
-          tempora, aut explicabo error ipsa repudiandae. Dolores eius eaque eum
-          mollitia esse nisi necessitatibus distinctio ea, dolorem non, optio
-          minima temporibus blanditiis, quidem aperiam!</p>
-        image: /images/case-study/case-study-img1.png
-        image_alt:
-        link:
-          _bookshop_name: generic/link
-          url: '#'
-          content: View More
-      - _bookshop_name: simple/left-right-block
         image_alignment: left
-        background: black
-        heading: E Banks That Accept Us Casino Players
+        background: gray
+        heading: Our Company
+        #subheading: 
         content_html: >-
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euiyd tincidunt ut laoreet dolore magna aliquam nibh
-          utpat.Ullamcorper suscipit lobo nibh euiyd tinci- dunt ut
-          laoreet.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Rem impedit molestias cumque dolorum, sunt, provident blanditiis
-          tempora, aut explicabo error ipsa repudiandae. Dolores eius eaque eum
-          mollitia esse nisi necessitatibus distinctio ea, dolorem non, optio
-          minima temporibus blanditiis, quidem aperiam!</p>
-        image: /images/case-study/case-study-img2.png
+          <p>
+          Absolute Lawyer Hua Hin is a law company with it's office in Hua Hin, Thailand.
+          The focus of our practice is real estate in the Hua Hin area, which includes Cha-Am, Pranburi and Sam Roi Yod.
+          We provide other services which are detailed on our website.
+          </p>
+          <p>
+          At Absolute Lawyer Hua Hin, we pride ourselves on providing personalized legal services with outstanding knowledge of law to our clients.
+          Our team is dedicated to ensuring the best possible outcomes and we tailor our client-centered approach to fid the unique needs of each individual case.
+          </p>
+          <p>
+          We, Absolute Lawyer Hua Hin, offer a friendly, efficient and comprehensive service.
+          We are here to listen and clarify your concerns.
+          </p>
+        image: /images/case-study/office.jpg
         image_alt:
         link:
           _bookshop_name: generic/link
-          url: '#'
-          content: View More
+          url: '/services'
+          content: Services
+      - _bookshop_name: simple/left-right-block
+        image_alignment: right
+        background: gray
+        heading: Amita Kullaphan, LL.M.
+        subheading: Director
+        content_html: >-
+          <p>
+          Amita has an extensive track record of representing clients in various types of real-estate development projects concerning the commercials aspects.
+          She has been advising expats and foreigners for several years with respect to real estate transactions.
+          These include the purchase of sale of house, condominium, commercial properties, leasing and construction agreement.
+          Her work also expands to the field of establishment of a housing project, condominiums, hotels.
+          In addition, she specializes in corporate matters that might be relevant to expats, namely foundation and liquidation of Thai companies.
+          </p>
+          <p>
+          Upon completing her master in field of Tax Law at Thammasat University, she rejoined SCL Nishimura C&P Limited in 2014 until 2022 when she decided to establish Absolute Lawyer Hua Hin.
+          </p>
+          <p><strong>Qualifications</strong></p>
+          <ul>
+            <li><p>Thammasat University (LL.M. in Tax Law)</p></li>
+            <li><p>Institute of Legal Education (Barrister-at-Law, Thai Bar Association)</p></li>
+            <li><p>Lawyers Council of Thailand</p></li>
+            <li><p>Chulalongkorn University (LL.B. in Civil and Criminal Law)</p></li>
+          </ul>
+        image: /images/case-study/amita.jpeg
+        image_alt:
+        link:
+          _bookshop_name: generic/link
+          url: 'https://amita-kullaphan.com/'
+          content: Personal website
   - _bookshop_name: sections/testimonials-block
-    background_image: /images/slider/bg-3.jpg
+    background_image: /images/slider/meeting-room-2.jpg
     heading:
       _bookshop_name: generic/heading
-      heading: Clients Opinion
+      heading: Client Testimonials
     testimonials:
       - _bookshop_name: simple/testimonial
         content: >-
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna. ipsum dolor
-          sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-          tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
-          ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Nemo vitae natus odio quasi recusandae, esse! Libero ipsum cum
-          aliquid, nisi, maiores animi iste vel consectetur error facilis quae
-          ducimus sint beatae vitae nesciunt explicabo esse nam. Soluta harum
-          ipsa officia nam adipisci velit debitis! Dolore a ducimus, assumenda
-          aspernatur fugit!
-        author_image: /images/clients-img1.png
-        author_image_alt: Clients
-        author_name: Paul Lapkin
-        author_designation: CEO at DeviserWeb
+          I recently had the pleasure of working with Khun Amita from Absolute Lawyer Hua Hin for the sale of my property in Cha-am.
+          Their service was professional, efficient, and friendly throughout the entire process.
+          They handled the transaction smoothly and I was impressed by their attention to detail and expertise in real estate law.
+          I highly recommend Absolute Lawyer Hua Hin, especially Khun Amita, for anyone looking for reliable legal services in the Hua Hin area.
+          Thank you for a job well done!
+        #author_image: /images/clients-img1.png
+        #author_image_alt: Clients
+        author_name: Thananya Tiantong
+        #author_designation: CEO at DeviserWeb
       - _bookshop_name: simple/testimonial
         content: >-
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna. ipsum dolor
-          sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-          tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
-          ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Nemo vitae natus odio quasi recusandae, esse! Libero ipsum cum
-          aliquid, nisi, maiores animi iste vel consectetur error facilis quae
-          ducimus .
-        author_image: /images/clients-img1.png
-        author_image_alt: Clients
-        author_name: Paul Lapkin
-        author_designation: CEO at DeviserWeb
-  - _bookshop_name: sections/client-logos
-    background_image: /images/slider/bg-1.jpg
-    client_logos:
-      - _bookshop_name: generic/client-logo
-        image: /images/clients-logo/client-logo-1.png
-        image_alt: Client Logo
-      - _bookshop_name: generic/client-logo
-        image: /images/clients-logo/client-logo-2.png
-        image_alt: Client Logo
-      - _bookshop_name: generic/client-logo
-        image: /images/clients-logo/client-logo-3.png
-        image_alt: Client Logo
-      - _bookshop_name: generic/client-logo
-        image: /images/clients-logo/client-logo-4.png
-        image_alt: Client Logo
-      - _bookshop_name: generic/client-logo
-        image: /images/clients-logo/client-logo-5.png
-        image_alt: Client Logo
-      - _bookshop_name: generic/client-logo
-        image: /images/clients-logo/client-logo-6.png
-        image_alt: Client Logo
-  - _bookshop_name: sections/staff-block
-    heading:
-      _bookshop_name: generic/heading
-      heading: Our Specialized Team
-    team_members:
-      - _bookshop_name: generic/team-member
-        image: /images/team/team-pic1.jpg
-        image_alt: Team img
-        name: aurelien salomo
-        job_title: Creative Director
-        description: >-
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam ut
-          laoreet dolore magna aliquam erat volutpat. Ut wisi enim.
-        facebook_url: '#'
-        twitter_url: '#'
-        linkedin_url: '#'
-        google_url: '#'
-        instagram_url: '#'
-      - _bookshop_name: generic/team-member
-        image: /images/team/team-pic2.jpg
-        image_alt: Team img
-        name: aurelien salomo
-        job_title: Creative Director
-        description: >-
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam ut
-          laoreet dolore magna aliquam erat volutpat. Ut wisi enim.
-        facebook_url: '#'
-        twitter_url: '#'
-        linkedin_url: '#'
-        google_url: '#'
-        instagram_url: '#'
-      - _bookshop_name: generic/team-member
-        image: /images/team/team-pic3.jpg
-        image_alt: Team img
-        name: aurelien salomo
-        job_title: Creative Director
-        description: >-
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam ut
-          laoreet dolore magna aliquam erat volutpat. Ut wisi enim.
-        facebook_url: '#'
-        twitter_url: '#'
-        linkedin_url: '#'
-        google_url: '#'
-        instagram_url: '#'
-      - _bookshop_name: generic/team-member
-        image: /images/team/team-pic4.jpg
-        image_alt: Team img
-        name: aurelien salomo
-        job_title: Creative Director
-        description: >-
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam ut
-          laoreet dolore magna aliquam erat volutpat. Ut wisi enim.
-        facebook_url: '#'
-        twitter_url: '#'
-        linkedin_url: '#'
-        google_url: '#'
-        instagram_url: '#'
-      - _bookshop_name: generic/team-member
-        image: /images/team/team-pic5.jpg
-        image_alt: Team img
-        name: aurelien salomo
-        job_title: Creative Director
-        description: >-
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam ut
-          laoreet dolore magna aliquam erat volutpat. Ut wisi enim.
-        facebook_url: '#'
-        twitter_url: '#'
-        linkedin_url: '#'
-        google_url: '#'
-        instagram_url: '#'
-      - _bookshop_name: generic/team-member
-        image: /images/team/team-pic6.jpg
-        image_alt: Team img
-        name: aurelien salomo
-        job_title: Creative Director
-        description: >-
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam ut
-          laoreet dolore magna aliquam erat volutpat. Ut wisi enim.
-        facebook_url: '#'
-        twitter_url: '#'
-        linkedin_url: '#'
-        google_url: '#'
-        instagram_url: '#'
-      - _bookshop_name: generic/team-member
-        image: /images/team/team-pic7.jpg
-        image_alt: Team img
-        name: aurelien salomo
-        job_title: Creative Director
-        description: >-
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam ut
-          laoreet dolore magna aliquam erat volutpat. Ut wisi enim.
-        facebook_url: '#'
-        twitter_url: '#'
-        linkedin_url: '#'
-        google_url: '#'
-        instagram_url: '#'
-      - _bookshop_name: generic/team-member
-        image: /images/team/team-pic1.jpg
-        image_alt: Team img
-        name: aurelien salomo
-        job_title: Creative Director
-        description: >-
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam ut
-          laoreet dolore magna aliquam erat volutpat. Ut wisi enim.
-        facebook_url: '#'
-        twitter_url: '#'
-        linkedin_url: '#'
-        google_url: '#'
-        instagram_url: '#'
-    link:
-      _bookshop_name: generic/link
-      url: '#'
-      content: Join Our Team
-  - _bookshop_name: sections/contact
-    heading: Get In Touch
-    content: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero fugiat
-      cum ad officia, harum, et voluptas quia vel voluptatem aliquam, facilis
-      corporis nam tempore ullam doloribus iusto sequi ipsum. Fugiat non culpa
-      ad beatae sed dolorem doloribus accusamus
-    link:
-      _bookshop_name: generic/link
-      url: '#'
-      content: Contact Us
-    map:
-      _bookshop_name: generic/map
-      latitude: "51.507351"
-      longitude: "-0.127758"
+          Very recommended lawyer and knowing best in their area of expertise
+        #author_image: /images/clients-img1.png
+        #author_image_alt: Clients
+        author_name: Kalyada Iamkosum
+        #author_designation: CEO at DeviserWeb
 ---
 

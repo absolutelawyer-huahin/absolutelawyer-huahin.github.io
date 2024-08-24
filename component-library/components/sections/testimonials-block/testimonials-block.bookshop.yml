@@ -15,7 +15,7 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  background_image: /images/slider/bg-3.jpg
+  background_image: /images/slider/meeting-room-2.jpg
   heading: bookshop:generic/heading
   testimonials:
     - bookshop:simple/testimonial

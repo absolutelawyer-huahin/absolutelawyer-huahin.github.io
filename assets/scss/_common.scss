@@ -13,9 +13,9 @@ a,.th-nav-btn,.btn{
 	}
 }
 ul{
-	margin: 0;
-	padding: 0;
-	list-style: none;
+	li::marker {
+		color: rgba(175, 175, 175, 0.8);
+	}
 }
  
 

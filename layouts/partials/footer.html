@@ -18,8 +18,8 @@
                             <h3 class="footer-title">Address</h3>
                             <p>{{ .Site.Data.company.contact.address }}</p>
                             <p class="contact-address">
-                                {{ $phone := replaceRE "(\\s)" "" .Site.Data.company.contact.phone }}
-                                Contact us : <a href="tel:{{ $phone }}">{{ .Site.Data.company.contact.phone }}</a> <br>
+                                {{ $phone := replaceRE "(\\s)" "" .Site.Data.company.contact.mobile }}
+                                Contact us : <a href="tel:{{ $phone }}">{{ .Site.Data.company.contact.mobile }}</a> <br>
                                 Write us : <a href="mailto:{{ .Site.Data.company.contact.email }}">{{ .Site.Data.company.contact.email }}</a>
                             </p>
                         </div>
@@ -30,14 +30,21 @@
                         <div class="footer-social-media">
                             <h3 class="footer-title">Keep in touch</h3>
                             <ul class="footer-media-link">
-                                <li><a href="{{ .Site.Data.company.social_media.facebook }}"><i class="tf-ion-social-facebook" aria-hidden="true"></i></a></li>
+                                {{ if .Site.Data.company.social_media.facebook }}
+                                    <li><a href="{{ .Site.Data.company.social_media.facebook }}"><i class="tf-ion-social-facebook" aria-hidden="true"></i></a></li>
+                                {{ end }}
+                                {{ if .Site.Data.company.social_media.twitter }}
                                 <li><a href="{{ .Site.Data.company.social_media.twitter }}"><i class="tf-ion-social-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="{{ .Site.Data.company.social_media.linkedin }}"><i class="tf-ion-social-linkedin-outline" aria-hidden="true"></i></a>
-                                </li>
-                                <li><a href="{{ .Site.Data.company.social_media.google }}"><i class="tf-ion-social-google-outline" aria-hidden="true"></i></a>
-                                </li>
-                                <li><a href="{{ .Site.Data.company.social_media.instagram }}"><i class="tf-ion-social-instagram-outline" aria-hidden="true"></i></a>
-                                </li>
+                                {{ end }}
+                                {{ if .Site.Data.company.social_media.linkedin }}
+                                <li><a href="{{ .Site.Data.company.social_media.linkedin }}"><i class="tf-ion-social-linkedin-outline" aria-hidden="true"></i></a></li>
+                                {{ end }}
+                                {{ if .Site.Data.company.social_media.google }}
+                                <li><a href="{{ .Site.Data.company.social_media.google }}"><i class="tf-ion-social-google-outline" aria-hidden="true"></i></a></li>
+                                {{ end }}
+                                {{ if .Site.Data.company.social_media.instagram }}
+                                <li><a href="{{ .Site.Data.company.social_media.instagram }}"><i class="tf-ion-social-instagram-outline" aria-hidden="true"></i></a></li>
+                                {{ end }}
                             </ul>
                         </div>
                     </div>

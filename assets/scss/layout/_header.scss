@@ -5,10 +5,10 @@
  */
 /*logo style*/
 .navigation {
-	background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+	background: rgba($primary-red, 0.9) none repeat scroll 0 0;
 	margin-bottom: 0;
 	border-bottom: 0;
-	padding: 20px 0;
+	padding: 0;
 	transition: .3s all;
 
 	.logo {
@@ -16,8 +16,12 @@
 	}
 }
 
+.nav {
+	padding: 20px 0;
+}
+
 .sticky-header {
-	background: rgba(0, 0, 0, 0.73);
+	background: rgba($primary-red, 0.9);
 }
 
 .menu {
@@ -25,9 +29,9 @@
 		a {
 			box-sizing: border-box;
 			font-size: 14px;
-			font-weight: 400;
+			font-weight: 600;
 			text-transform: uppercase;
-			color: #facd8a;
+			color: $primary-light-orange;
 			transition: 0.5s;
 			position: relative;
 
@@ -40,12 +44,12 @@
 				width: 0;
 				height: 1px;
 				transition: 0.5s;
-				background: $primary-color;
+				background: $primary-light-orange;
 			}
 
 			&:hover {
 				text-decoration: none;
-				color: $primary-color;
+				color: $primary-light-orange;
 
 				&:before {
 					opacity: 1;
@@ -71,21 +75,21 @@
 
 /* Services Page */
 .header.main.services-header {
-	background: url(../img/header_bg/services-folding-img.jpg) no-repeat;
+	background: url(../img/slider/meeting-room-2.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
 /* Portfolio Page */
 .header.main.portfolio-header {
-	background: url(../img/header_bg/portfolio-folding-img.jpg) no-repeat;
+	background: url(../img/slider/meeting-room-2.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
 /* Blog Page */
 .header.main.blog-header {
-	background: url(../img/header_bg/blog-folding-img.jpg) no-repeat;
+	background: url(../img/slider/meeting-room-2.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
 }

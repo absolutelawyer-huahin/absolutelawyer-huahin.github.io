@@ -1,7 +1,31 @@
 <div class="col-md-4">
     <div class="service-item text-center">
       <div class="services-icon">
-        <i class="{{ .icon }}"></i>
+          <!--
+          <svg width="100px" height="100px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                  stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                  d="M7 12H17M8 8.5C8 8.5 9 9 10 9C11.5 9 12.5 8 14 8C15 8 16 8.5 16 8.5M8 15.5C8 15.5 9 16 10 16C11.5 16 12.5 15 14 15C15 15 16 15.5 16 15.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"/> </g>
+          </svg>
+          -->
+          <!--
+          <svg width="100px" height="100px"  viewBox="0 0 16.716324 14.2118" version="1.1" id="svg5" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs2"></defs><g id="layer1" transform="translate(-127.55141,-82.622778)"><g id="g4108-7" transform="translate(20.313014,3.8003553)">
+  <path id="path3690-4" style="fill:none;fill-opacity:0.440273;stroke-width:0.7;stroke-dasharray:none" d="m 116.08118,84.267905 a 3.3115281,3.3115281 0 0 1 -3.31153,3.311528 3.3115281,3.3115281 0 0 1 -3.31153,-3.311528 3.3115281,3.3115281 0 0 1 3.31153,-3.311528 3.3115281,3.3115281 0 0 1 3.31153,3.311528 z" />
+  <path id="rect492-0-0-5" style="fill:none;stroke-width:0.7" d="m 109.98402,87.752722 c 0,0 1.39332,0.90552 2.74987,0.90552 1.35655,0 2.74987,-0.90552 2.74987,-0.90552 1.63928,1.208661 2.59476,2.775509 2.4255,4.931501 H 107.6232 c -0.2342,-2.015159 0.70014,-3.60539 2.36082,-4.931501 z" />
+  <path id="path3690-3-7-1" style="fill:none;fill-opacity:0.440273;stroke-width:0.7;stroke-dasharray:none" d="m 115.46628,81.038249 c 0.5368,-1.104512 1.66956,-1.865834 2.98013,-1.865833 1.82891,10e-7 3.31153,1.482621 3.31153,3.311528 0,1.828907 -1.48262,3.311527 -3.31153,3.311528 -0.64221,0 -1.24172,-0.182808 -1.74933,-0.499226" />
+  <path id="rect492-0-0-8-8-7" style="fill:none;stroke-width:0.7" d="m 116.23539,86.286198 c 0.5314,0.261006 1.35997,0.588082 2.17526,0.588082 1.35655,0 2.74987,-0.905519 2.74987,-0.905519 1.63928,1.208659 2.59476,2.775509 2.4255,4.931509 h -5.0185" /></g></g>
+</svg>-->
+
+          <!--
+          <svg width="100px" height="100px"  viewBox="0 0 16.716324 14.2118" version="1.1" id="svg5" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs2"></defs><g id="layer1" transform="translate(-127.55141,-82.622778)"><g id="g4108-7" transform="translate(20.313014,3.8003553)">
+  <path id="path3690-4" stroke="white" style="fill:none;fill-opacity:0.440273;stroke-width:0.7;stroke-dasharray:none" d="m 116.08118,84.267905 a 3.3115281,3.3115281 0 0 1 -3.31153,3.311528 3.3115281,3.3115281 0 0 1 -3.31153,-3.311528 3.3115281,3.3115281 0 0 1 3.31153,-3.311528 3.3115281,3.3115281 0 0 1 3.31153,3.311528 z" />
+  <path id="rect492-0-0-5" stroke="white" style="fill:none;stroke-width:0.7" d="m 109.98402,87.752722 c 0,0 1.39332,0.90552 2.74987,0.90552 1.35655,0 2.74987,-0.90552 2.74987,-0.90552 1.63928,1.208661 2.59476,2.775509 2.4255,4.931501 H 107.6232 c -0.2342,-2.015159 0.70014,-3.60539 2.36082,-4.931501 z" />
+  <path id="path3690-3-7-1" stroke="white" style="fill:none;fill-opacity:0.440273;stroke-width:0.7;stroke-dasharray:none" d="m 115.46628,81.038249 c 0.5368,-1.104512 1.66956,-1.865834 2.98013,-1.865833 1.82891,10e-7 3.31153,1.482621 3.31153,3.311528 0,1.828907 -1.48262,3.311527 -3.31153,3.311528 -0.64221,0 -1.24172,-0.182808 -1.74933,-0.499226" />
+  <path id="rect492-0-0-8-8-7" stroke="white" style="fill:none;stroke-width:0.7" d="m 116.23539,86.286198 c 0.5314,0.261006 1.35997,0.588082 2.17526,0.588082 1.35655,0 2.74987,-0.905519 2.74987,-0.905519 1.63928,1.208659 2.59476,2.775509 2.4255,4.931509 h -5.0185" /></g></g>
+</svg>-->
+          {{ partial "bookshop" (slice "simple/icon" .)}}
+
+          <!-- <i class="{{ .icon }}"></i>-->
       </div>
       <h4 class="service-title">{{ .heading }}</h4>
       <p class="service-description">

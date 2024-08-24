@@ -19,3 +19,7 @@ path = 'local/component-library'
 
 [[module.imports]]
 path = 'github.com/cloudcannon/bookshop/hugo/v3'
+
+
+[outputs]
+  home = ["HTML", "SCSS"]

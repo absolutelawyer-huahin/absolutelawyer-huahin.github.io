@@ -18,7 +18,7 @@ blueprint:
 preview:
   heading: Our Services
   subheading: We ensure Quality Design.
-  image: /images/header/services-folding-img.jpg
+  image: /images/slider/meeting-room-2.jpg
    
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs: {}

@@ -71,7 +71,6 @@ a:focus, .th-nav-btn:focus, .btn:focus {
 ul {
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 button:hover, button:focus {
@@ -292,7 +291,7 @@ button:hover, button:focus {
 .menu li a {
   box-sizing: border-box;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
   color: #facd8a;
   transition: 0.5s;
@@ -335,7 +334,7 @@ button:hover, button:focus {
 
 /* Services Page */
 .header.main.services-header {
-  background: url(../img/header_bg/services-folding-img.jpg) no-repeat;
+  background: url(../img/slider/meeting-room-2.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -1011,7 +1010,8 @@ div.loading {
 .pricing-list,
 .pricing-title,
 .features-title,
-.price {
+.price,
+.price-description,{
   color: #afafaf;
 }
 
@@ -1029,12 +1029,9 @@ div.loading {
 }
 
 .price,
+.price-description,
 .table-month {
   font-weight: 400;
-}
-
-.table-month {
-  margin-bottom: 36px;
 }
 
 .pricing-list {
@@ -1043,12 +1040,13 @@ div.loading {
 
 .features-list {
   margin-bottom: 21px;
+  list-style-type: none;
 }
 
 .features-list p {
   border-bottom: 1px solid rgba(62, 62, 62, 0.5);
   font-size: 16px;
-  padding: 20px 20px 20px 7px;
+  padding: 10px 10px 7px 7px;
   display: inline-block;
 }
 
@@ -1083,7 +1081,7 @@ hr.hr-border {
 }
 
 .price, .pricing-title,
-.table-month, .features-list,
+.table-month, .price-description, .features-list,
 .th-btn-border {
   position: relative;
   z-index: 10;
@@ -1093,8 +1091,9 @@ hr.hr-border {
 .table:hover .features-title,
 .table:hover .features-list i,
 .table:hover .th-btn-border,
-.table:hover .price {
-  color: #facd8a;
+.table:hover .price,
+.table:hover .price-description,{
+  color: #e48d24;
 }
 
 .table:hover .table-price {
@@ -1122,14 +1121,14 @@ hr.hr-border {
 }
 
 .border-effect:before {
-  border-bottom: 1px solid #facd8a;
-  border-left: 1px solid #facd8a;
+  border-bottom: 1px solid #e48d24;
+  border-left: 1px solid #e48d24;
   -webkit-transform-origin: 0 100%;
 }
 
 .border-effect:after {
-  border-top: 1px solid #facd8a;
-  border-right: 1px solid #facd8a;
+  border-top: 1px solid #e48d24;
+  border-right: 1px solid #e48d24;
   -webkit-transform-origin: 100% 0%;
 }
 
@@ -2206,7 +2205,7 @@ form .padding-left-15 {
 /* Select 1px to 992px devices */
 @media only screen and (min-width: 1px) and (max-width: 992px) {
   .navigation .navbar-toggle span {
-    background: #fff;
+    background: #e48d24;
   }
   .hero-area h1 {
     font-size: 35px;
@@ -2542,7 +2541,8 @@ form .padding-left-15 {
   }
   .case-study-content img {
     width: auto;
-    margin: 20px auto;
+    margin: 20px;
+    padding: 0 90px 90px 90px;
   }
 }
 

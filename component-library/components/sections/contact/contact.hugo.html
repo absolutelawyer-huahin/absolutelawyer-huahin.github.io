@@ -1,13 +1,18 @@
 <!-- Contact Us Sections
 =========================-->
 <section class="contact-call-to-action">
-    <div class="shadow-block vh-center">
+    <div class="shadow-block vh-center" style="pointer-events:none;">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="block">
               <h2>{{ .heading }}</h2>
               <p>{{ .content }}</p>
+                <p class="contact-address">
+                    {{ $phone := replaceRE "(\\s)" "" .mobile }}
+                    Contact us : <a href="tel:{{ $phone }}">{{ .mobile }}</a> <br>
+                    Write us : <a href="mailto:{{ .Site.Data.company.contact.email }}">{{ .email }}</a>
+                </p>
               {{ partial "bookshop" (slice "generic/link" .link )}}
             </div>
           </div>

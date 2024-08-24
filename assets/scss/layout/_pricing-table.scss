@@ -36,12 +36,9 @@
 }
 
 .price,
+.price-description,
 .table-month{
 	font-weight: 400;
-}
-
-.table-month{
-	margin-bottom: 36px;
 }
 
 .pricing-list{
@@ -49,13 +46,14 @@
 }
 
 .features-list{
+	list-style-type: none;
     margin-bottom: 21px;
 }
 
 .features-list p{
 	border-bottom: 1px solid rgba(62, 62, 62, 0.5);
 	font-size: 16px;
-	padding: 20px 20px 20px 7px;
+	padding: 10px 10px 7px 7px;
     display: inline-block;
 }
 
@@ -91,7 +89,7 @@ hr.hr-border{
 	border-color: #3e3e3e;
 }
 .price, .pricing-title,
-.table-month,.features-list,
+.table-month,.price-description,.features-list,
 .th-btn-border{
 	position: relative;
 	z-index: 10;
@@ -102,8 +100,9 @@ hr.hr-border{
 	.features-title,
 	.features-list i,
 	.th-btn-border,
-	.price{
-		color: #facd8a;
+	.price,
+	.price-description,{
+		color: #e48d24;
 	}
 
 	.table-price{
@@ -133,13 +132,13 @@ hr.hr-border{
 
 .border-effect {
 	&:before{
-		border-bottom: 1px solid #facd8a;
-		border-left: 1px solid #facd8a;
+		border-bottom: 1px solid #e48d24;
+		border-left: 1px solid #e48d24;
 		-webkit-transform-origin: 0 100%;
 	}
 	&:after {
-	  border-top: 1px solid #facd8a;
-	  border-right: 1px solid #facd8a;
+	  border-top: 1px solid #e48d24;
+	  border-right: 1px solid #e48d24;
 	  -webkit-transform-origin: 100% 0%;
 	}
 }

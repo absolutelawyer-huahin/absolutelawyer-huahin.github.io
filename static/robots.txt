@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://absolutelawyer-huahin.com/sitemap.xml

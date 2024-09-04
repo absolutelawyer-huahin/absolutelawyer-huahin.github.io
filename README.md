@@ -1,4 +1,4 @@
-# absolutelawyer-huahin.github.io
+# absolutelawyer-huahin.com
 
 ## Localhost development
 
